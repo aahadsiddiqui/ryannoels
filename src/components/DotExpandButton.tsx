@@ -15,7 +15,7 @@ const DotExpandButton = ({ text, href, onClick, className = "" }: DotExpandButto
   const buttonContent = (
     <button 
       onClick={onClick}
-      className={`group flex h-12 items-center gap-2 rounded-full bg-gray-100 pl-3 pr-4 transition-all duration-300 ease-in-out hover:bg-blue-600 hover:pl-2 hover:text-white active:bg-blue-700 ${className}`}
+      className={`group flex h-12 items-center gap-2 rounded-full pl-3 pr-4 transition-all duration-300 ease-in-out hover:pl-2 active:bg-blue-700 ${className}`}
     >
       <span className="rounded-full bg-blue-600 p-1 text-sm text-white transition-colors duration-300 group-hover:bg-white">
         <FiArrowRight className="-translate-x-[200%] text-[0px] transition-all duration-300 group-hover:translate-x-0 group-hover:text-lg group-hover:text-blue-600 group-active:-rotate-45" />
